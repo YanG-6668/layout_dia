@@ -112,7 +112,8 @@ q {
   quotes: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 button {
   padding: 0; }
