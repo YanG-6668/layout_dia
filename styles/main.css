@@ -43,7 +43,7 @@
         -ms-flex-align: center;
             align-items: center;
     padding-top: 50px; }
-    .header__top_btn {
+    .header__top-btn {
       position: relative;
       font-size: 13px;
       line-height: 150%;
@@ -55,11 +55,11 @@
       text-align: center;
       -webkit-transition: color 0.3s;
       transition: color 0.3s; }
-      .header__top_btn:hover {
+      .header__top-btn:hover {
         color: #ff9c8e; }
-      .header__top_btn:active {
+      .header__top-btn:active {
         color: #fff; }
-      .header__top_btn::before {
+      .header__top-btn::before {
         content: "";
         position: absolute;
         bottom: -8px;
@@ -69,12 +69,12 @@
         background-color: #ff9c8e;
         border-radius: 4px; }
       @media (max-width: 775px) {
-        .header__top_btn {
+        .header__top-btn {
           display: none; } }
   .header__burger {
     display: none;
     cursor: pointer; }
-    .header__burger_img {
+    .header__burger-img {
       width: 45px;
       height: 30px;
       border-radius: 6px; }
@@ -200,7 +200,7 @@
     bottom: 50px;
     left: 144px;
     color: #fff; }
-    .slider__content_title {
+    .slider__content-title {
       font-size: 13px;
       line-height: 150%;
       font-family: "Poppins", sans-serif;
@@ -208,7 +208,7 @@
       letter-spacing: 3px;
       text-transform: uppercase;
       margin-bottom: 8px; }
-    .slider__content_text {
+    .slider__content-text {
       line-height: 150%; }
   .slider .slick-arrow {
     font-size: 0;
@@ -304,7 +304,7 @@
     top: 45px;
     right: 25px;
     cursor: pointer; }
-    .mobile__close_icon {
+    .mobile__close-icon {
       width: 45px;
       height: 45px; }
   @media (max-width: 475px) {
@@ -343,23 +343,23 @@
 
 .we {
   margin-bottom: 120px; }
-  .we__content {
+  .we__wrapper {
     max-width: 754px;
     width: 100%;
     margin: 0 auto; }
-    .we__content-title {
-      font-size: 32px;
-      line-height: 150%;
-      font-family: "Poppins", sans-serif;
-      font-weight: 600;
-      color: #253757;
-      margin-bottom: 16px; }
-    .we__content-text {
-      font-size: 24px;
-      line-height: 150%;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
-      color: #6c788b; }
+  .we__title {
+    font-size: 32px;
+    line-height: 150%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #253757;
+    margin-bottom: 16px; }
+  .we__text {
+    font-size: 24px;
+    line-height: 150%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    color: #6c788b; }
   @media (max-width: 775px) {
     .we {
       text-align: center;
